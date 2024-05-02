@@ -14,7 +14,7 @@ The project also entailed breaking down the PropertyAddress into individual comp
 # Breaking OwnerAddress into Individual Columns
 Another transformation applied to the dataset was parsing the OwnerAddress into separate columns for street, city, and state using the PARSENAME function. This function, typically used for SQL object naming, was creatively repurposed to handle comma-separated address data.
 
-# standardize values of "Sold as Vacant" Column
+# Standardize Values of "Sold as Vacant" Column
 The "Sold as Vacant" column values were standardized from 'Y' and 'N' to 'Yes' and 'No' using a CASE statement. This change not only made the data more readable but also ensured consistency across the dataset.
 
 # Handle Duplicate Records
