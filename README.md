@@ -1,6 +1,6 @@
 # Data Cleansing in SQL 
 
-The goal of this project was to clean and transform the Nashville housing market data to make it more consumable for analysis. The original dataset, provided as an Excel file, can be found in this repository("Nashville Housing Data for Data Cleaning.xlsx). For the purposes of this project, the data was migrated into an SQL table to facilitate manipulation using SQL queries and functions. The script implementing the following details is "NashvilleHousingExcercise.sql".
+The goal of this project was to clean and transform the Nashville housing market data to make it more consumable for analysis. The original dataset, provided as an Excel file, can be found in this repository ("Nashville Housing Data for Data Cleaning.xlsx). For the purposes of this project, the data was migrated into an SQL table to facilitate manipulation using SQL queries and functions. The script implementing the following details is "NashvilleHousingExcercise.sql".
 
 # Standardize Date Format
 The first step in the data transformation process was standardizing the date format. This involved converting the SaleDate column in the NashvilleHousing table to a standard date format. The original date format was inconsistent, requiring the use of the CONVERT function to standardize all entries to a DATE type.
